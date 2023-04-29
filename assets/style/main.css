@@ -21,6 +21,9 @@ textarea{
     resize: none;
 }
 
+a{
+    text-decoration: none;
+}
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
