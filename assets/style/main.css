@@ -86,6 +86,10 @@ a{
 
 /* Comienzo de seccion principal  */
 
+.cont-slider{
+  margin: 250px 0px;
+  min-height:100vh;
+}
 /* Slideshow container */
 .slideshow-container {
   
