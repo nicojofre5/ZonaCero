@@ -1,4 +1,5 @@
 let slideIndex = 0;
+var prevScrollpos = window.pageYOffset;
 showSlides();
 
 function showSlides() {
@@ -10,5 +11,15 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 8000); // Change image every 2 seconds
+  setTimeout(showSlides, 8000); // Cambai el tiempo de iamgen en 8 seg
+}
+
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("header").style.top = "0";
+  } else {
+    document.getElementById("header").style.top = "-200px";
+  }
+  prevScrollpos = currentScrollPos;
 }

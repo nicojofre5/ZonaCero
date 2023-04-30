@@ -30,6 +30,13 @@ a{
   width: 100px;
   
 }
+header{
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+  width: 100%;
+  transition: top 2s;
+}
 .dir-cabecera{
   background-color: #454444;
   color: white;
@@ -37,6 +44,8 @@ a{
   font-family: var(--primary-font);
   font-size: 1.5em;
   border-bottom: 1px solid var(--secondary-color);
+
+
   
 }
 
@@ -58,6 +67,9 @@ a{
   justify-content: space-between;
   background-color: var(--primary-color);
   box-shadow: 2px 7px 15px rgb(41, 40, 40);
+ 
+   /* Stay on top */
+
 }
 .menu{
   display: flex;
