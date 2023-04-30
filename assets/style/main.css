@@ -73,6 +73,16 @@ a{
   font-family: var(--secondary-font);
   text-transform: uppercase;
 }
+.menu-bar{
+  color:white;
+  font-size: 3.5em;
+ 
+}
+.cont-menu-bar{
+  align-self: center;
+  padding: 0px 30px;
+  display: none;
+}
 
 /* Comienzo de seccion principal  */
 
