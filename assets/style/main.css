@@ -222,22 +222,23 @@ header{
   color: white;
   background-color: var(--secondary-color);
   border-radius: 20px;
-  border:2px solid rgb(158, 160, 5);
+  border:2px solid rgb(143, 141, 3);
   padding:15px;
 }
 .container-card-servicio{
   display: flex;
-  justify-content: space-evenly;
- 
+  justify-content: space-around;
+  padding: 80px 0px;
   flex-wrap: wrap;
-  padding: 120px 0px;
+  
+
 }
 .card-servicio figure{
  
   padding: 14px;
 }
 .card-servicio h3{
-  font-size: 1.8em;
+  font-size: 2em;
   padding:8px 0px;
   width: 50%;
   margin: 0 auto;
@@ -250,21 +251,34 @@ header{
 .card-servicio{
   text-align: center; 
 
+
 }
 .card-servicio-body{
-  padding: 8px;
-  height: 180px;
+  padding: 8px; 
+
+
 
 }
 .card-servicio-body a{
   display: inline-block;
   background-color: var(--secondary-color);
-  padding: 8px 6px;
+  padding: 9px 45px;
   border: 2px solid rgb(120, 104, 2);
   margin: 8px 0px;
-  font-family: var(--secundary-font);
-  font-size: 1.6em;
+  font-family: var(--secondary-font);
+  font-size: 1.7em;
   border-radius: 15px;
-  font-weight: bold;
   
+  
+  
+}
+#servicio{
+  min-height: 100vh;
+}
+.card-servicio-body p{
+  font-size: 1.5em;
+  font-family: var(--primary-font);
+  font-weight: 200;
+  padding: 10px;
+
 }
