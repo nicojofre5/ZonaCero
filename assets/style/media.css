@@ -1,8 +1,14 @@
 @media only screen and (max-width:900px) {
     .cont-menu-bar{
         display: block;
+        cursor: pointer;
     }
     .menu{
         display: none;
+    }
+}
+@media only screen and (min-width:500px) {
+    .body-slider{
+        padding: 220px 20px;
     }
 }

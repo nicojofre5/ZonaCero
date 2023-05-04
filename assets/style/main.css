@@ -1,6 +1,7 @@
 :root{
-    --primary-color:#212020;
+    --primary-color:#191919;
     --secondary-color:#d2b511;
+    --tercer-color:#2e2d2d;
     --primary-font: 'Montserrat', sans-serif;
     --secondary-font: Cambria;
   
@@ -24,6 +25,10 @@ textarea{
 a{
     text-decoration: none;
 }
+body{
+    background-color: var(--primary-color);
+    color: white;
+}
 /* Comienzo de seccion header  */
 
 .cont-logo img{
@@ -43,10 +48,7 @@ header{
   padding: 5px 8px;
   font-family: var(--primary-font);
   font-size: 1.5em;
-  border-bottom: 1px solid var(--secondary-color);
-
-
-  
+  border-bottom: 1px solid rgba(243, 243, 2, 0.311);  
 }
 
 .dir-cabecera h4 , .dir-cabecera h5{
@@ -58,14 +60,14 @@ header{
   font-weight: 300;
 }
 .cont-logo{
-  padding: 10px;
+  padding: 0px 15px;
   display: inline-block;
 
 }
 .nav-bar{
   display: flex;
   justify-content: space-between;
-  background-color: var(--primary-color);
+  background-color: var(--tercer-color);
   box-shadow: 2px 7px 15px rgb(41, 40, 40);
  
    /* Stay on top */
@@ -87,85 +89,127 @@ header{
 }
 .menu-bar{
   color:white;
-  font-size: 3.5em;
+  font-size: 3em;
  
 }
 .cont-menu-bar{
   align-self: center;
-  padding: 0px 30px;
+  padding: 0px 25px;
   display: none;
 }
 
 /* Comienzo de seccion principal  */
 
 .cont-slider{
-  margin: 2px 0px;
-  min-height:100vh;
+  padding: 170px 0px 0px;
+  
+ 
+
 }
-/* Slideshow container */
+.carousel {
+  min-height: 200px;
+  background-color: #e6e6e6;
+  position: relative;
+  border-top: 3px solid var(--secondary-color);
+  border-bottom: 3px solid var(--secondary-color);
+}
+.mySlides {
+  display: none;
+  height: /*auto;*/ 600px; /* size for this demo only */
+  width:  /*auto;*/ 100%; /* size for this demo only */
+  padding: 1rem 3.5rem; 
+  background-image: linear-gradient(rgba(16, 16, 16, 0.908),rgba(28, 28, 29, 0.817)), url(../img/IMG-MC-CamarasSeguridad.jpg);
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mySlides.two {
+  background-image: linear-gradient(rgba(21, 20, 20, 0.88),rgba(15, 15, 16, 0.819)), url(../img/imagseguridad.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.mySlides.three {
+  background-image:linear-gradient(rgba(24, 23, 23, 0.808),rgba(18, 18, 19, 0.888)),  url(../img/camaras1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
 .slideshow-container {
-  
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
-  
-  /* Next & previous buttons */
+  position: relative;
+  margin: 0 auto;
+}
+.carousel .prev,
+.carousel .next{
+  background-color: rgba(0, 0, 0, 0.13);
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color:var(--secondary-color);
+  font-weight: bold;
+  font-size: 1.55rem;
+  transition: 0.6s ease;
+  border: none;
+  user-select: none;
+  border-radius: 10px;
 
-  /* Position the "next button" to the right */
+}
+.carousel .prev{
+  left: 8px;
+}
+.carousel .next{
+  left: unset;
+  right: 8px;
+ 
+}
+.carousel .prev:hover,  
+.carousel .next:hover
+{
+  background-color: rgba(0,0,0,0.4);
+  color: #fff;
+}
+.carousel .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.body-slider{
+  padding: 180px 5px;
+  margin: 0px 40px;
+  
+}
+.body-slider a{
+  color: white;
+  font-size: 1.5em;
+  padding:12px 8px;
+  border-radius: 15px;
+  margin: 12px 0px;
+  display: inline-block;
+  border: 1px solid var(--secondary-color);
+  font-family: var(--primary-font);
 
-  
-  /* On hover, add a black background color with a little bit see-through */
-
-  
-  /* Caption text */
-  .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-  
-  /* Fading animation */
-  .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
+  text-transform: uppercase;
+}
+.body-slider h1, .body-slider h2{
+  font-size: 3.4em;
+  padding: 10px 0px;
+  font-family: var(--primary-font);
+}
+.body-slider h3{
+  font-size: 1.8em;
+  font-weight: 200;
+  font-family: var(--secondary-font);
+}
+.mySlides.one .body-slider,.mySlides.mySlides.three .body-slider{
+  text-align: end;
+}
