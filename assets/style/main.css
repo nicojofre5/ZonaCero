@@ -14,6 +14,7 @@
 }
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 ul{
     list-style-type: none;
@@ -102,7 +103,7 @@ header{
 
 .cont-slider{
   padding: 170px 0px 0px;
-  
+  min-height:100vh;
  
 
 }
@@ -115,7 +116,7 @@ header{
 }
 .mySlides {
   display: none;
-  height: /*auto;*/ 600px; /* size for this demo only */
+  min-height: 80vh; /* size for this demo only */
   width:  /*auto;*/ 100%; /* size for this demo only */
   padding: 1rem 3.5rem; 
   background-image: linear-gradient(rgba(16, 16, 16, 0.908),rgba(28, 28, 29, 0.817)), url(../img/IMG-MC-CamarasSeguridad.jpg);
@@ -217,28 +218,53 @@ header{
 /* Parte de servicios  */
 
 .card-servicio>figure img{
-  display: inline-block;
-  width: 100px;
+  width: 124px;
   color: white;
   background-color: var(--secondary-color);
-  border-radius: 100%;
-  border: 2px solid rgba(141, 137, 9, 0.808);
-  
-
-
+  border-radius: 20px;
+  border:2px solid rgb(158, 160, 5);
+  padding:15px;
 }
 .container-card-servicio{
   display: flex;
-  justify-content: space-around;
-  gap: 10px;
+  justify-content: space-evenly;
+ 
   flex-wrap: wrap;
+  padding: 120px 0px;
 }
 .card-servicio figure{
+ 
+  padding: 14px;
+}
+.card-servicio h3{
+  font-size: 1.8em;
+  padding:8px 0px;
+  width: 50%;
+  margin: 0 auto;
+  font-family: var(--primary-font);
+}
+.card-servicio>figure{
   display: flex;
-  justify-content: center; 
-
-
+  justify-content: center;
 }
 .card-servicio{
-  padding: 80px 0px;
+  text-align: center; 
+
+}
+.card-servicio-body{
+  padding: 8px;
+  height: 180px;
+
+}
+.card-servicio-body a{
+  display: inline-block;
+  background-color: var(--secondary-color);
+  padding: 8px 6px;
+  border: 2px solid rgb(120, 104, 2);
+  margin: 8px 0px;
+  font-family: var(--secundary-font);
+  font-size: 1.6em;
+  border-radius: 15px;
+  font-weight: bold;
+  
 }
