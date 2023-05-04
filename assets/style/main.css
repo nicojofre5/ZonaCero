@@ -213,3 +213,32 @@ header{
 .mySlides.one .body-slider,.mySlides.mySlides.three .body-slider{
   text-align: end;
 }
+
+/* Parte de servicios  */
+
+.card-servicio>figure img{
+  display: inline-block;
+  width: 100px;
+  color: white;
+  background-color: var(--secondary-color);
+  border-radius: 100%;
+  border: 2px solid rgba(141, 137, 9, 0.808);
+  
+
+
+}
+.container-card-servicio{
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.card-servicio figure{
+  display: flex;
+  justify-content: center; 
+
+
+}
+.card-servicio{
+  padding: 80px 0px;
+}
