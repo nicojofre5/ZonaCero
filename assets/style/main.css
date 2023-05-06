@@ -102,13 +102,13 @@ header{
 /* Comienzo de seccion principal  */
 
 .cont-slider{
-  padding: 170px 0px 0px;
+  padding: 10px 0px 0px;
   min-height:100vh;
  
 
 }
 .carousel {
-  min-height: 200px;
+
   background-color: #e6e6e6;
   position: relative;
   border-top: 3px solid var(--secondary-color);
@@ -116,7 +116,7 @@ header{
 }
 .mySlides {
   display: none;
-  min-height: 80vh; /* size for this demo only */
+  height: 100vh; /* size for this demo only */
   width:  /*auto;*/ 100%; /* size for this demo only */
   padding: 1rem 3.5rem; 
   background-image: linear-gradient(rgba(16, 16, 16, 0.908),rgba(28, 28, 29, 0.817)), url(../img/IMG-MC-CamarasSeguridad.jpg);
@@ -130,11 +130,13 @@ header{
   background-image: linear-gradient(rgba(21, 20, 20, 0.88),rgba(15, 15, 16, 0.819)), url(../img/imagseguridad.jpg);
   background-size: cover;
   background-position: center;
+  padding: 4rem 3.5rem; 
 }
 .mySlides.three {
   background-image:linear-gradient(rgba(24, 23, 23, 0.808),rgba(18, 18, 19, 0.888)),  url(../img/camaras1.jpg);
   background-size: cover;
   background-position: center;
+  padding: 5rem 3.5rem; 
 }
 
 
@@ -233,10 +235,10 @@ header{
   
 
 }
-.card-servicio figure{
- 
-  padding: 14px;
+.card-servicio{
+  padding: 40px 0px;
 }
+
 .card-servicio h3{
   font-size: 2em;
   padding:8px 0px;
@@ -244,27 +246,21 @@ header{
   margin: 0 auto;
   font-family: var(--primary-font);
 }
+
 .card-servicio>figure{
   display: flex;
   justify-content: center;
 }
 .card-servicio{
   text-align: center; 
-
-
 }
-.card-servicio-body{
-  padding: 8px; 
 
-
-
-}
 .card-servicio-body a{
   display: inline-block;
   background-color: var(--secondary-color);
   padding: 9px 45px;
   border: 2px solid rgb(120, 104, 2);
-  margin: 8px 0px;
+  margin: 2px 0px;
   font-family: var(--secondary-font);
   font-size: 1.7em;
   border-radius: 15px;

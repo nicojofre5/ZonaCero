@@ -6,6 +6,10 @@
     .menu{
         display: none;
     }
+    .body-slider {
+        display: inline-block;
+        padding: 270px 0px;
+    }
  
     
 }
