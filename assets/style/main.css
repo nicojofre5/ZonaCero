@@ -278,3 +278,10 @@ header{
   padding: 10px;
 
 }
+.bg-card-prod1,.bg-card-prod2,.bg-card-prod3,.bg-card-prod4{
+
+}
+.bg-card-prod1{
+  background: url(../img/camaras1.jpg);
+  background-size: cover;
+}
