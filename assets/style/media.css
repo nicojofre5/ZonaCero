@@ -16,11 +16,10 @@
 @media only screen and (min-width:800px) and (max-width:1200px){
     .card-servicio{
         width: 100%;
-        flex-grow: 5;
     }
 }
 @media only screen and (min-width:500px) {
     .body-slider{
-        padding: 280px 20px;
+        padding: 250px 20px;
     }
 }
