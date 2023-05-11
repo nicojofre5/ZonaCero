@@ -1,20 +1,57 @@
 @media only screen and (max-width:900px) {
-    .cont-menu-bar{
-        display: block;
-        cursor: pointer;
-    }
-    .menu{
-        display: none;
-    }
+   
     .body-slider {
         display: inline-block;
         padding: 270px 0px;
     }
     .card-prod{
-        width: 
-        100%;
+        width:100%;
     }
+    .nav-bar{
+        display: none;
+        
+    }
+    .cont-cerrar{
+        display: inline-block;
+        align-self: flex-end;
+        cursor: pointer;
+    }
+    .menu-nav-bar{
+        font-weight: 500;
+        display: flex;
+        flex-direction: column;
+        min-height: 90vh;
+        align-self: flex-start;
+        padding-top:100px; 
+    }
+    
+    .menu-nav-bar li{
+        padding: 15px 0px;
+        font-weight: 600;
+        font-size: 1.3em;
+        letter-spacing: 4px;
+    
+    }
+    .btn-togler-event {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        width: 60%;
+        right: 0;
+        padding: 0px 14px;
+        background-color:var(--tercer-color);
+       
+      }
+
  
+    .cont-icon-bar{
+        display: block;
+        cursor: pointer;
+    }
+
+    
+
     
 }
 @media only screen and (min-width:800px) and (max-width:1200px){
