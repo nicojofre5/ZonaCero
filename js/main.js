@@ -40,6 +40,7 @@ setInterval(function() {
 
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
+  scrollFunction();
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("header").style.top = "0";
   } else {
@@ -55,3 +56,18 @@ menu_bar.addEventListener('click',function(){
 cerrar.addEventListener('click', () => {
     menu.classList.remove('btn-togler-event');
 })
+
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
