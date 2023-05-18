@@ -335,6 +335,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 25px;
+  
 }
 .card-cursos picture img{
   width: 210px;
@@ -343,6 +344,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   align-items: center;
+  
 }
 .capacitacion {
   padding: 40px;
@@ -401,6 +403,7 @@ input ,textarea{
   border: 0px;
   border-bottom: 2px solid #d2b511;
   width: 100%;
+  color: white;
 }
 fieldset label, label{
   display: block;
