@@ -90,7 +90,7 @@ header {
   display: none;
   height: 100vh; /* size for this demo only */
   width: 100%; /* size for this demo only */
-  padding: 1rem 3.5rem;
+  padding:13rem 3.5rem;
   background-image: linear-gradient(
       rgba(16, 16, 16, 0.908),
       rgba(28, 28, 29, 0.817)
@@ -110,7 +110,7 @@ header {
     url(../img/imagseguridad.jpg);
   background-size: cover;
   background-position: center;
-  padding: 4rem 3.5rem;
+  padding: 16rem 3.5rem;
 }
 .mySlides.three {
   background-image: linear-gradient(
@@ -120,7 +120,7 @@ header {
     url(../img/camaras1.jpg);
   background-size: cover;
   background-position: center;
-  padding: 5rem 3.5rem;
+  padding: 13rem 3.5rem;
 }
 
 .slideshow-container {
@@ -211,6 +211,7 @@ header {
   border-radius: 20px;
   border: 2px solid rgb(143, 141, 3);
   padding: 15px;
+  margin: 18px 0px;
 }
 .container-card-servicio {
   display: flex;
@@ -344,6 +345,10 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   align-items: center;
+  border: 3px solid #d2b511 ;
+  box-shadow: .3rem .4rem 8px #d2b511;  
+  border-radius: 4px;
+  padding: 60px 15px;
   
 }
 .capacitacion {
@@ -414,15 +419,16 @@ fieldset label, label{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  font-family: var(--secondary-font);
+  font-family: var(--primary-font);
 }
 .contacto h3{
   padding: 40px;
-  font-size: 2.5em;
+  font-size: 2.7em;
 }
 .card-contacto h4{
   padding: 16px 0px;
-  font-size: 2.1em;
+  font-size: 2.3em;
+  letter-spacing: 3px;
 }
 
 .art-telefono{
@@ -440,6 +446,9 @@ fieldset label, label{
   margin: 0px 4px;
  
 }
+.cont-contact-tel a{
+  font-size: 1.6em;
+}
 .cont-contact-tel a>.fa-whatsapp{
   color: white;
   background-color: rgb(0, 151, 30);
@@ -450,11 +459,32 @@ fieldset label, label{
   color: #d2b511;
   font-size: 1.5em;
 }
+.submit-form {
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  border: none;
+  background: #d2b511;
+  padding: 10px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  margin: 18px 0px;
+}
+
+.submit-form:hover{
+  background-color: #fff0a7;
+  transition: 0.5s;
+}
+.cont-button-submit{
+  display: flex;
+  justify-content: center;
+}
 /* Seccion de footer */
 
 footer{
   text-align: center;
-  padding: 44px 36px 20px;
+  padding:30px 0px 65px;
   font-family: var(--primary-font);
   font-size: 1.2rem;
   margin: 10px 0px 0px;

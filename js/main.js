@@ -57,6 +57,7 @@ cerrar.addEventListener('click', () => {
     menu.classList.remove('btn-togler-event');
 })
 
+
 // Get the button
 let mybutton = document.getElementById("myBtn");
 

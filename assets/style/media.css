@@ -58,7 +58,7 @@
         justify-content: center;
     }
     form{
-        width: 70%;
+        width: 75%;
         margin:0 auto;
     }
     .card-cursos{
@@ -73,6 +73,21 @@
     .precio-curso h4, .precio-curso h5 {
         display: none;
     }
+    .cont-card-prod{
+        gap: 0px;
+    }
+    .card-contacto h4{
+        display: inline-block;
+        font-size: 2.2em;
+        padding: 36px 40px;
+    }
+    .mySlides.two,.mySlides,.mySlides.three {
+        padding: 1rem;
+    }
+    .mySlides.three{
+        padding: 6.5rem 1rem;
+    }
+
     
 }
 @media only screen and (min-width:800px) and (max-width:1200px){
@@ -84,4 +99,8 @@
     .body-slider{
         padding: 250px 20px;
     }
+    .mySlides.two,.mySlides,.mySlides.three {
+        padding: 18rem 0px;
+    }
 }
+
