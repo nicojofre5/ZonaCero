@@ -12,6 +12,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 
 html {
@@ -39,7 +40,7 @@ body {
 /* Comienzo de seccion header  */
 
 .cont-logo img {
-  width: 250px;
+  width: 280px;
 
 }
 
@@ -56,7 +57,7 @@ header {
 }
 
 .cont-logo {
-  padding: 0px 4px;
+  padding: 0px 2px;
   display: inline-block;
 }
 
@@ -262,6 +263,10 @@ header {
   display: flex;
   justify-content: center;
 }
+.card-servicio-body a:hover{
+  background-color: #cebb5d;
+  transition: .5s;
+}
 
 .card-servicio-body a {
   display: inline-block;
@@ -275,6 +280,7 @@ header {
   color: black;
   font-weight: 800;
 }
+
 
 .card-servicio-body p {
   font-size: 1.5em;
@@ -481,7 +487,9 @@ label {
   flex-wrap: wrap;
   font-family: var(--primary-font);
 }
-
+.contacto{
+  padding: 40px 0px;
+}
 .contacto h3 {
   padding: 40px;
   font-size: 2.7em;
@@ -552,12 +560,19 @@ label {
 
 footer {
   text-align: center;
-  padding: 30px 0px 65px;
+  padding: 30px 0px 35px;
   font-family: var(--primary-font);
-  font-size: 1.2rem;
-  margin: 10px 0px 0px;
+  font-size: 1.3rem;
+  margin: 50px 0px 0px;
 }
 
 .copy-footer a {
   color: #d2b511;
+}
+.logo-footer img{
+  width: 280px;
+}
+.logo-footer{
+  display: inline-block;
+  margin: 30px 0px;
 }

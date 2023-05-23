@@ -4,7 +4,7 @@ showSlides(slideIndex);
 let menu = document.querySelector('#menu');
 let menu_bar = document.querySelector('#btn-toggle');
 const cerrar = document.querySelector('#close-btn');
-
+let mybutton = document.getElementById("myBtn");
 // Next/previous controls
 function plusSlides(n) {
     showSlides(slideIndex += n);
@@ -60,12 +60,6 @@ cerrar.addEventListener('click', () => {
     menu.classList.remove('btn-togler-event');
 })
 
-
-// Get the button
-let mybutton = document.getElementById("myBtn");
-
-// When the user scrolls down 20px from the top of the document, show the button
-
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     mybutton.style.display = "block";
@@ -76,3 +70,8 @@ function scrollFunction() {
 function clickWp() {
   window.open("https://wa.me/+5491121937785", '_blank');
 }
+document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () =>{
+  menu.classList.remove('btn-togler-event');
+}));
+
+
