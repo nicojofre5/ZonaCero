@@ -39,7 +39,7 @@ function showSlides(n) {
 
 setInterval(function() {
   plusSlides(1)
-}, 5000);
+}, 7000);
 
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;

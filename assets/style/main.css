@@ -1,13 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Raleway&display=swap');
 :root {
   --primary-color: #191919;
   --secondary-color: #d2b511;
   --tercer-color: #2e2d2d;
-  --primary-font: "Montserrat", sans-serif;
-  --secondary-font: Cambria;
+  --primary-font: 'Quicksand', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Serif+Pro&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -74,12 +73,19 @@ header {
 .menu-nav-bar {
   display: flex;
   gap: 1.2rem;
-  font-family: var(--secondary-font);
+  font-family: var(--primary-font);
 }
 
 .menu-nav-bar li a {
   font-size: 1.8rem;
   color: white;
+  padding: 0px 5px;
+}
+.menu-nav-bar li a:hover {
+  font-size: 1.8rem;
+  color: #d2b511;
+  transition: 1s;
+  text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.671);
 }
 
 .wp-fixed {
@@ -89,14 +95,12 @@ header {
 /* Comienzo de seccion principal  */
 
 .cont-slider {
-  padding: 10px 0px 0px;
   min-height: 100vh;
 }
 
 .carousel {
   background-color: #e6e6e6;
   position: relative;
-
   border-bottom: 3px solid var(--secondary-color);
 }
 
@@ -192,6 +196,7 @@ header {
 .body-slider {
   padding: 180px 5px;
   margin: 0px 40px;
+  font-family: var(--secondary-font);
 }
 
 .body-slider a {
@@ -202,22 +207,30 @@ header {
   margin: 12px 0px;
   display: inline-block;
   border: 1px solid var(--secondary-color);
-  font-family: var(--primary-font);
-
   text-transform: uppercase;
+  
+}
+.body-slider a:hover{
+  background-color: #d2b511;
+  color: black;
+  transition: 1s;
+  font-weight: 800;
 }
 
 .body-slider h1,
 .body-slider h2 {
   font-size: 3.4em;
   padding: 10px 0px;
-  font-family: var(--primary-font);
+  font-weight: 900;
+  color: #d2b511;
+  text-shadow: 3px 2px 6px rgba(0, 0, 0, 0.68);
+
 }
 
 .body-slider h3 {
   font-size: 1.8em;
-  font-weight: 200;
-  font-family: var(--secondary-font);
+  font-weight: 100;
+
 }
 
 .mySlides.one .body-slider,
@@ -247,6 +260,7 @@ header {
 .card-servicio {
   text-align: center;
   padding: 100px 0px;
+  font-family: var(--primary-font);
 }
 
 .card-servicio h3 {
@@ -254,7 +268,8 @@ header {
   padding: 8px 0px;
   width: 50%;
   margin: 0 auto;
-  font-family: var(--primary-font);
+  color: #d2b511;
+ 
 }
 
 .card-servicio>figure {
@@ -272,20 +287,18 @@ header {
   padding: 9px 45px;
   border: 2px solid rgb(120, 104, 2);
   margin: 6px 0px;
-  font-family: var(--secondary-font);
   font-size: 1.7em;
   border-radius: 15px;
   color: black;
-  font-weight: 800;
+  font-family: var(--secondary-font);
+  font-weight: bold;
 }
 
 
 .card-servicio-body p {
   font-size: 1.5em;
-  font-family: var(--primary-font);
-  font-weight: 200;
+  font-weight: 100;
   padding: 10px;
-  
 }
 
 .cont-card-prod {
@@ -335,8 +348,8 @@ header {
 }
 
 .body-card-prod {
-  padding: 10px 5px;
-  font-family: var(--primary-font);
+  padding: 10px 8px;
+  font-family: var(--secondary-font);
 }
 
 .body-card-prod h3 {
@@ -345,7 +358,8 @@ header {
 
 .body-card-prod h5 {
   font-size: 1.2rem;
-  font-weight: 300;
+  font-weight: 200;
+  padding: 8px 0px;
 }
 
 #myBtn {
@@ -377,6 +391,7 @@ header {
   flex-direction: column;
   gap: 25px;
 
+
 }
 
 .card-cursos picture img {
@@ -397,11 +412,16 @@ header {
 .capacitacion {
   padding: 40px;
   margin: 130px 0px;
+  font-family: var(--primary-font);
 }
 
 .capacitacion h2 {
-  font-size: 2.5em;
+  font-size: 2.7em;
   padding: 24px 0px;
+  margin: 30px 0px;
+
+  color: #d2b511;
+ 
 }
 
 .card-cursos-body {
@@ -450,6 +470,9 @@ textarea {
   width: 100%;
   border: 2px solid #d2b511;
   color: white;
+  font-family: var(--secondary-font);
+  font-size: 1.5rem;
+  margin: 5px 0px;
 }
 
 fieldset {
@@ -462,15 +485,17 @@ input {
   border-bottom: 2px solid #d2b511;
   width: 100%;
   color: white;
-  padding: 8px 2px;
-  margin: 3px 0px;
+  padding: 8px 1px;
+  margin: 0px 0px 18px;
+  font-family: var(--secondary-font);
 }
+
 
 input:focus,
 textarea:focus {
   border: 0px;
   outline: unset;
-  border: 1px solid #d2b5112f;
+  border: 1px solid #d2b51163;
 }
 
 fieldset label,
@@ -478,26 +503,31 @@ label {
   display: block;
   font-size: 1.4em;
   padding: 6px 0px;
+
 }
 
 .cont-contacto {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  font-family: var(--primary-font);
+
 }
 .contacto{
   padding: 40px 0px;
+  font-family: var(--secondary-font);
 }
 .contacto h3 {
   padding: 40px;
   font-size: 2.7em;
+  color: #d2b511;
+  
 }
 
 .card-contacto h4 {
   padding: 16px 0px;
   font-size: 2.3em;
   letter-spacing: 3px;
+  font-weight: 300;
 }
 
 .art-telefono {
@@ -560,8 +590,8 @@ label {
 footer {
   text-align: center;
   padding: 30px 0px 35px;
-  font-family: var(--primary-font);
-  font-size: 1.3rem;
+  font-family: var(--secondary-font);
+  font-size: 1.4rem;
   margin: 50px 0px 0px;
 }
 
