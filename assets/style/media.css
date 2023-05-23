@@ -1,4 +1,4 @@
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:750px) {
    
     .body-slider {
         display: inline-block;
@@ -87,6 +87,10 @@
     .mySlides.three{
         padding: 6.5rem 1rem;
     }
+    .cont-logo img {
+        width: 200px;
+      
+      }
 
     
 }
@@ -100,7 +104,7 @@
         padding: 250px 20px;
     }
     .mySlides.two,.mySlides,.mySlides.three {
-        padding: 18rem 0px;
+        padding: 8rem 0px;
     }
 }
 
