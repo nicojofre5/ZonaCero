@@ -1,0 +1,110 @@
+@media only screen and (max-width:750px) {
+   
+    .body-slider {
+        display: inline-block;
+        padding: 270px 0px;
+    }
+    .card-prod{
+        width:100%;
+    }
+    .nav-bar{
+        display: none;
+        
+    }
+    .cont-cerrar{
+        display: inline-block;
+        align-self: flex-end;
+        cursor: pointer;
+    }
+    .menu-nav-bar{
+        font-weight: 500;
+        display: flex;
+        flex-direction: column;
+        min-height: 90vh;
+        align-self: flex-start;
+        padding-top:100px; 
+    }
+    
+    .menu-nav-bar li{
+        padding: 15px 0px;
+        font-weight: 600;
+        font-size: 1.3em;
+        letter-spacing: 4px;
+    
+    }
+    .btn-togler-event {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        width: 60%;
+        right: 0;
+        padding: 0px 14px;
+        background-color:rgb(22, 22, 22);
+       
+      }
+
+ 
+    .cont-icon-bar{
+        display: block;
+        cursor: pointer;
+    }
+    .cont-contact-tel a{
+        display: block;
+        margin: 12px 0px;
+    }
+    .cont-contacto{
+        flex-direction: column;
+        justify-content: center;
+    }
+    form{
+        width: 75%;
+        margin:0 auto;
+    }
+    .card-cursos{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .cont-card-cursos{
+     margin: 50px 0px;
+    }
+    .precio-curso h4, .precio-curso h5 {
+        display: none;
+    }
+    .cont-card-prod{
+        gap: 0px;
+    }
+    .card-contacto h4{
+        display: inline-block;
+        font-size: 2.2em;
+        padding: 36px 40px;
+    }
+    .mySlides.two,.mySlides,.mySlides.three {
+        padding: 1rem;
+    }
+    .mySlides.three{
+        padding: 6.5rem 1rem;
+    }
+    .cont-logo img {
+        width: 200px;
+      
+      }
+
+    
+}
+@media only screen and (min-width:800px) and (max-width:1200px){
+    .card-servicio{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:500px) {
+    .body-slider{
+        padding: 250px 20px;
+    }
+    .mySlides.two,.mySlides,.mySlides.three {
+        padding: 8rem 0px;
+    }
+}
+
