@@ -274,6 +274,7 @@ header {
   font-size: 1.7em;
   border-radius: 15px;
   color: black;
+  font-weight: 800;
 }
 
 .card-servicio-body p {

@@ -9,6 +9,9 @@ const cerrar = document.querySelector('#close-btn');
 function plusSlides(n) {
     showSlides(slideIndex += n);
 }
+
+
+
 // Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
@@ -70,5 +73,6 @@ function scrollFunction() {
     mybutton.style.display = "none";
   }
 }
-
-// When the user clicks on the button, scroll to the top of the document
+function clickWp() {
+  window.open("https://wa.me/+5491121937785", '_blank');
+}
