@@ -1,5 +1,7 @@
 # Zona Cero Seguridad electrónica
 
-[![logo-opengraph.jpg](https://i.postimg.cc/jdrdph77/logo-opengraph.jpg)
+### Es una página informativa y estática. Diseñada para realizar consultas simples mediante redes sociales.
+
+![logo-opengraph.jpg](https://i.postimg.cc/jdrdph77/logo-opengraph.jpg)
 
 
