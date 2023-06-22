@@ -37,7 +37,7 @@ body {
 /* Comienzo de seccion header  */
 
 .cont-logo img {
-  width: 280px;
+  width: 250px;
 
 }
 
@@ -45,7 +45,7 @@ header {
   position: fixed;
   z-index: 1;
   width: 100%;
-  transition: top 2s;
+  transition: top 1.5s;
   background-color: var(--tercer-color);
   display: flex;
   justify-content: space-between;

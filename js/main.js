@@ -41,13 +41,17 @@ setInterval(function() {
   plusSlides(1)
 }, 7000);
 
+
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   scrollFunction();
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("header").style.top = "0";
+
+ 
   } else {
     document.getElementById("header").style.top = "-200px";
+    menu.classList.remove("btn-togler-event");
   }
   prevScrollpos = currentScrollPos;
 }
@@ -71,7 +75,7 @@ function clickWp() {
   window.open("https://wa.me/+5491121937785", '_blank');
 }
 document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () =>{
-  menu.classList.remove('btn-togler-event');
+  menu.classList.toggle('btn-togler-event');
 }));
 
 
