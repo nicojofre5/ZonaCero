@@ -39,7 +39,7 @@ function showSlides(n) {
 
 setInterval(function() {
   plusSlides(1)
-}, 7000);
+}, 8500);
 
 
 window.onscroll = function() {
