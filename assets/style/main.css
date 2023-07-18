@@ -110,7 +110,7 @@ header {
   /* size for this demo only */
   width: 100%;
   /* size for this demo only */
-  padding: 14rem 3.5rem;
+  padding: 11rem 3.5rem;
   background-image: linear-gradient(rgba(16, 16, 16, 0.908),
       rgba(28, 28, 29, 0.817)),
     url(../img/IMG-MC-CamarasSeguridad.jpg);
@@ -126,7 +126,7 @@ header {
     url(../img/imagseguridad.jpg);
   background-size: cover;
   background-position: center;
-  padding: 16rem 3.5rem;
+  padding: 12rem 3.5rem;
 }
 .mySlides.three {
   background-image: linear-gradient(rgba(24, 23, 23, 0.808),
@@ -134,7 +134,7 @@ header {
     url(../img/camaras1.jpg);
   background-size: cover;
   background-position: center;
-  padding: 16rem 3.5rem;
+  padding: 12rem 3.5rem;
 }
 
 .slideshow-container {
