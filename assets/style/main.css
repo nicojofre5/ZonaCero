@@ -251,7 +251,7 @@ header {
 
 .container-card-servicio {
   display: flex;
-  justify-content: space-around;
+  
   flex-wrap: wrap;
   align-items: center;
 }
@@ -423,7 +423,7 @@ header {
 }
 .servicios_title{
   font-family: var(--primary-font);
-  padding: 0px 60px;
+  padding: 0px 50px;
 }
 
 .card-cursos-body {

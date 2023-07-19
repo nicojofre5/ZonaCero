@@ -23,7 +23,7 @@
 <body>
     <header id="header">
         <picture class="cont-logo">
-            <img src="assets/img/logozc.png" alt="" class="logo">
+            <img src="assets/img/logozc.png" alt="Imagen de loco de zona cero" class="logo">
         </picture>
         <div class="cont-icon-bar icon-bar btn-togler" id="btn-toggle">&#9776;</div>
         <nav class="nav-bar" id="menu">
@@ -76,7 +76,7 @@
         <div class="container-card-servicio" id="servicio">
             <div class="card-servicio">
                 <figure>
-                    <img src="assets/img/cctv-icon.png" alt="">
+                    <img src="assets/img/cctv-icon.png" alt="Logo de camaras en servicio">
                 </figure>
                 <div class="card-servicio-body">
                     <h3>Colocación de sistemas y elementos de seguridad electrónica</h3>
@@ -87,7 +87,7 @@
             </div>
             <div class="card-servicio">
                 <figure>
-                    <img src="assets/img/cctv-icon2.png" alt="">
+                    <img src="assets/img/cctv-icon2.png" alt="Logo de camaras en servicio">
                 </figure>
                 <div class="card-servicio-body">
                     <h3>Operatividad y atención personalizada</h3>
@@ -99,7 +99,7 @@
 
             <div class="card-servicio">
                 <figure>
-                    <img src="assets/img/study-icon.png" alt="">
+                    <img src="assets/img/study-icon.png" alt="Icono de estudios y capacitacion de seguridad electrónica">
                 </figure>
                 <div class="card-servicio-body">
                     <h3>Cursos y capacitaciones online</h3>
@@ -147,7 +147,7 @@
             <div class="cont-card-cursos">
                 <div class="card-cursos">
                     <picture>
-                        <img src="assets/img/placeholder-img.png" alt="">
+                        <img src="assets/img/placeholder-img.png" alt="Imagen curso 1">
                     </picture>
                     <div class="card-cursos-body">
                         <h3>Curso de colocación de cercos eléctricos</h3>
@@ -167,7 +167,7 @@
             <div class="cont-card-cursos">
                 <div class="card-cursos">
                     <picture>
-                        <img src="assets/img/placeholder-img.png" alt="">
+                        <img src="assets/img/placeholder-img.png" alt="Imagen curso 2">
                     </picture>
                     <div class="card-cursos-body">
                         <h3>Asesoramiento y planificación de sistemas de seguridad</h3>
@@ -188,7 +188,7 @@
             <div class="cont-card-cursos">
                 <div class="card-cursos">
                     <picture>
-                        <img src="assets/img/placeholder-img.png" alt="">
+                        <img src="assets/img/placeholder-img.png" alt="Imagen curso 3">
                     </picture>
                     <div class="card-cursos-body">
                         <h3>Auditorias de seguridad</h3>
@@ -208,7 +208,7 @@
             <div class="cont-card-cursos">
                 <div class="card-cursos">
                     <picture>
-                        <img src="assets/img/placeholder-img.png" alt="">
+                        <img src="assets/img/placeholder-img.png" alt="Servicios para countries">
                     </picture>
                     <div class="card-cursos-body">
                         <h3>Servicio de asesoramiento para countries y empresas</h3>
@@ -232,7 +232,7 @@
         <div class="cont-contacto">
             <article class="card-contacto">
                 <h4>Envianos tu consulta</h4>
-                <form action="https://formsubmit.co/lnicolasjofre@hotmail.com" method="POST">
+                <form action="https://formsubmit.co/lnicolasjofre@hotmail.com" id="form" method="POST">
                     <fieldset>
                         <label for="nombre">Nombre y apellido</label>
                         <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre y apellido">
@@ -245,6 +245,7 @@
                     <textarea name="comentario" id="comentarios" cols="30" rows="10"></textarea>
                     <div class="cont-button-submit">
                         <button class="submit-form">Enviar</button>
+                        <a href="" id="emailA"></a>
                     </div>
                 </form>
             </article>
@@ -261,8 +262,7 @@
                     <a href="tel:+5491121937785" target="_blank"><i class="fa-solid fa-phone"></i>1121937785</a>
                     <a href="mailto:zona.cero.tecnologia@gmail.com" target="_blank"><i
                             class="fa-regular fa-envelope"></i>zona.cero.tecnologia@gmail.com</a>
-                    <a href="https://api.whatsapp.com/send?phone=+5491121937785&text=Hola,%20te%20quisiera%20hacer%20una%20consulta:"
-                        target="_blank"><i class="fa-brands fa-whatsapp"></i>1121937785</a>
+                    <a href="https://api.whatsapp.com/send?phone=+5491121937785&text=Hola,%20te%20quisiera%20hacer%20una%20consulta:" target="_blank"><i class="fa-brands fa-whatsapp"></i>1121937785</a>
                 </div>
             </article>
         </div>
@@ -270,7 +270,7 @@
 
     <footer>
         <picture class="logo-footer">
-            <img src="assets/img/logozc.png" alt="">
+            <img src="assets/img/logozc.png" alt="Logo de zonacero seguridad">
         </picture>
         <div class="copy-footer">
             <p>Copyright &copy; Zona cero - Todos los derechos reservados</p>
@@ -279,7 +279,7 @@
     </footer>
     <script src="https://kit.fontawesome.com/63586a8960.js" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
-
+    <script src="js/sendEmail.js"></script>
 
 
 </body>

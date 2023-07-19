@@ -44,6 +44,10 @@
         
       }
 
+      .container-card-servicio {
+        justify-content: center;
+      }
+
  
     .cont-icon-bar{
         display: block;
