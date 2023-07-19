@@ -101,7 +101,9 @@
         width: 200px;
       }
 
-    
+    .link-mail{
+        font-size: 1.2em !important;
+    }
 }
 @media only screen and (min-width:700px) and (max-width:799px){
 

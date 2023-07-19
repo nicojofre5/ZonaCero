@@ -61,12 +61,12 @@ header {
 .cont-cerrar {
   display: none;
   padding: 20px 14px;
-  font-size: 6em;
+  font-size: 5.4em;
 }
 
 .cont-icon-bar {
   display: none;
-  font-size: 3.8em;
+  font-size: 3.1em;
   padding-right: 10px;
 }
 
@@ -113,7 +113,7 @@ header {
   padding: 11rem 3.5rem;
   background-image: linear-gradient(rgba(16, 16, 16, 0.908),
       rgba(28, 28, 29, 0.817)),
-    url(../img/IMG-MC-CamarasSeguridad.jpg);
+    url(../img/imgcamarasopt.jpg);
   margin: 0 auto;
   background-size: cover;
   background-position: center;
@@ -193,7 +193,7 @@ header {
 }
 
 .body-slider {
-  padding: 180px 5px;
+  padding: 175px 5px;
   margin: 0px 40px;
   font-family: var(--secondary-font);
 }
@@ -251,7 +251,6 @@ header {
 
 .container-card-servicio {
   display: flex;
-  
   flex-wrap: wrap;
   align-items: center;
 }
