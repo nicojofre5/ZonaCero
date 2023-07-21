@@ -110,7 +110,7 @@ header {
   /* size for this demo only */
   width: 100%;
   /* size for this demo only */
-  padding: 11rem 3.5rem;
+  padding: 12rem 3.5rem;
   background-image: linear-gradient(rgba(16, 16, 16, 0.908),
       rgba(28, 28, 29, 0.817)),
     url(../img/imgcamarasopt.jpg);
@@ -193,7 +193,7 @@ header {
 }
 
 .body-slider {
-  padding: 175px 5px;
+  padding: 190px 5px;
   margin: 0px 40px;
   font-family: var(--secondary-font);
 }
