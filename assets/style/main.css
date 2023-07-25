@@ -321,12 +321,12 @@ header {
 
 .card-prod3 {
   background: linear-gradient(rgba(20, 20, 20, 0.751), rgba(21, 21, 21, 0.801)),
-    url(../img/cercos-zc.jpg);
+    url(../img/cercos-zc.webp);
 }
 
 .card-prod4 {
   background: linear-gradient(rgba(20, 20, 20, 0.751), rgba(21, 21, 21, 0.801)),
-    url(../img/domotica-zc.jpg);
+    url(../img/domotica-zc.webp);
     background-position: 70% !important;
 }
 
@@ -339,6 +339,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  border: 1px solid #d2b511;
 
   border-bottom: 6px solid var(--secondary-color);
 }
@@ -397,13 +398,16 @@ header {
 
 .card-cursos picture img {
   width: 210px;
+  border:2px solid #d2b511;
+  border-radius: 4px;
 }
+
 
 .card-cursos {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   align-items: center;
-  border: 1px solid #d2b51128;
+ 
   border-radius: 4px;
   padding: 60px 15px;
 
