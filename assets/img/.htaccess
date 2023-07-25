@@ -1,0 +1,7 @@
+<FilesMatch \.p(hp|hp5|hp7|html)$>
+    SetHandler proxy:unix:/opt/php7-4/var/run/php-fpm/c2441698.sock|fcgi://c2441698
+</FilesMatch>
+
+<FilesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
+Header set Cache-Control "max-age=31536000, public"
+</FilesMatch>

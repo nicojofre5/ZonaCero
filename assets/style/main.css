@@ -37,7 +37,8 @@ body {
 /* Comienzo de seccion header  */
 
 .cont-logo img {
-  width: 250px;
+  width: 210px;
+
 
 }
 
@@ -113,7 +114,7 @@ header {
   padding: 12rem 3.5rem;
   background-image: linear-gradient(rgba(16, 16, 16, 0.908),
       rgba(28, 28, 29, 0.817)),
-    url(../img/imgcamarasopt.jpg);
+    url(../img/imgcamarasopt.webp);
   margin: 0 auto;
   background-size: cover;
   background-position: center;
@@ -123,7 +124,7 @@ header {
 .mySlides.two {
   background-image: linear-gradient(rgba(21, 20, 20, 0.88),
       rgba(15, 15, 16, 0.819)),
-    url(../img/imagseguridad.jpg);
+    url(../img/imagseguridad.wep.webp);
   background-size: cover;
   background-position: center;
   padding: 12rem 3.5rem;
@@ -131,7 +132,7 @@ header {
 .mySlides.three {
   background-image: linear-gradient(rgba(24, 23, 23, 0.808),
       rgba(18, 18, 19, 0.888)),
-    url(../img/camaras1.jpg);
+    url(../img/camaras1.webp);
   background-size: cover;
   background-position: center;
   padding: 12rem 3.5rem;
@@ -310,7 +311,7 @@ header {
 
 .card-prod1 {
   background: linear-gradient(rgba(20, 20, 20, 0.751), rgba(21, 21, 21, 0.801)),
-    url(../img/camaras1.jpg);
+    url(../img/camaras1.webp);
 }
 
 .card-prod2 {
@@ -320,12 +321,13 @@ header {
 
 .card-prod3 {
   background: linear-gradient(rgba(20, 20, 20, 0.751), rgba(21, 21, 21, 0.801)),
-    url(../img/capacitacion1.jpg);
+    url(../img/cercos-zc.jpg);
 }
 
 .card-prod4 {
   background: linear-gradient(rgba(20, 20, 20, 0.751), rgba(21, 21, 21, 0.801)),
-    url(../img/instalador-aire.jpg);
+    url(../img/domotica-zc.jpg);
+    background-position: 70% !important;
 }
 
 .card-prod {
@@ -401,8 +403,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   align-items: center;
-  border: 3px solid #d2b511;
-  box-shadow: .3rem .4rem 8px #d2b511;
+  border: 1px solid #d2b51128;
   border-radius: 4px;
   padding: 60px 15px;
 
@@ -423,7 +424,7 @@ header {
 }
 .servicios_title{
   font-family: var(--primary-font);
-  padding: 0px 50px;
+  padding: 0px 30px;
 }
 
 .card-cursos-body {
@@ -601,7 +602,7 @@ footer {
   color: #d2b511;
 }
 .logo-footer img{
-  width: 280px;
+  width: 240px;
 }
 .logo-footer{
   display: inline-block;
