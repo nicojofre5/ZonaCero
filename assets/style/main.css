@@ -407,15 +407,14 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   align-items: center;
- 
   border-radius: 4px;
-  padding: 60px 15px;
+  padding: 40px 15px;
 
 }
 
 .capacitacion {
   padding: 40px;
-  margin: 130px 0px;
+  margin: 20px 0px;
   font-family: var(--primary-font);
 }
 
@@ -542,13 +541,27 @@ label {
   padding: 50px;
 }
 
+
 .cont-contact-rrss a,
 .cont-contact-tel a {
   font-size: 1.5em;
   padding: 0px 10px;
   color: white;
 }
-
+.ico-ig i{
+  background: radial-gradient(circle at 30% 110%, #ffdb8b 0%,#ee653d 25%,#d42e81 50%,#a237b6 75%,#3e5fbc 100%);
+  border-radius: 8px;
+  transition: 0.4s;
+}
+.ico-ig i:hover{
+  color: rgb(236, 203, 229);
+}
+.ico-fb{
+  color: #2c56b1 !important;
+}
+.ico-fb i:hover{
+  color: #4d77e3;
+}
 .cont-contact-rrss a>i,
 .cont-contact-tel a>i {
   padding: 2px;
