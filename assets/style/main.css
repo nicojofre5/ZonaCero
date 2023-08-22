@@ -550,9 +550,12 @@ label {
 }
 .ico-ig i{
   background: radial-gradient(circle at 30% 110%, #ffdb8b 0%,#ee653d 25%,#d42e81 50%,#a237b6 75%,#3e5fbc 100%);
-  border-radius: 8px;
+  border-radius: 25px;
   transition: 0.4s;
+
+
 }
+
 .ico-ig i:hover{
   color: rgb(236, 203, 229);
 }
