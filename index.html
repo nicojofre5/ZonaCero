@@ -1,147 +1,229 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style/main.css">
-    <link rel="stylesheet" href="assets/style/media.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style/main.css" />
+    <link rel="stylesheet" href="assets/style/media.css" />
     <title>Zona Cero | Seguridad Electronica</title>
-    <meta property="og:type" name="type" content="website">
-    <meta property="og:title" name="title" content="Zona Cero Seguridad | Soluciones de seguridad">
-    <meta property="og:description" name="description" content="Zona cero seguridad es una empresa de zona oeste dedicada a la seguridad doméstica y/o empresarial. Obtené tu presupuesto consultándonos via email o whatsapp">
-    <meta property="og:image" name="image" content="https://i.postimg.cc/jdrdph77/logo-opengraph.jpg">
-    <meta property="og:image:width" name="image:width" content="650">
-    <meta property="og:image:height" name="image:height" content="350">
-    <meta property="og:url" name="url" content="https://zonaceroseguridad.com.ar">
-    <meta property="og:site_name" name="site_name" content="Zona Cero Seguridad">
-    <link rel="shortcut icon" href="assets/img/zonaceroico.png" type="image/x-icon">
-    <link rel="icon" href="assets/img/zonaceroico.png">
-</head>
+    <meta property="og:type" name="type" content="website" />
+    <meta
+      property="og:title"
+      name="title"
+      content="Zona Cero Seguridad | Soluciones de seguridad"
+    />
+    <meta
+      property="og:description"
+      name="description"
+      content="Zona cero seguridad es una empresa de zona oeste dedicada a la seguridad doméstica y/o empresarial. Obtené tu presupuesto consultándonos via email o whatsapp"
+    />
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Last-Modified" content="0" />
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta
+      property="og:image"
+      name="image"
+      content="https://i.postimg.cc/jdrdph77/logo-opengraph.jpg"
+    />
+    <meta property="og:image:width" name="image:width" content="650" />
+    <meta property="og:image:height" name="image:height" content="350" />
+    <meta
+      property="og:url"
+      name="url"
+      content="https://zonaceroseguridad.com.ar"
+    />
+    <meta
+      property="og:site_name"
+      name="site_name"
+      content="Zona Cero Seguridad"
+    />
+    <meta name="robots" content="index, follow" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/zonaceroico.png"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="assets/img/zonaceroico.png" />
+  </head>
 
-<body>
+  <body>
     <header id="header">
-        <picture class="cont-logo">
-            <img src="assets/img/logo_wepb.png" alt="Imagen de logo de zona cero" class="logo">
-        </picture>
-        <div class="cont-icon-bar icon-bar btn-togler" id="btn-toggle">&#9776;</div>
-        <nav class="nav-bar" id="menu">
+      <picture class="cont-logo">
+        <img
+          src="assets/img/logo_wepb.png"
+          alt="Imagen de logo de zona cero"
+          class="logo"
+        />
+      </picture>
+      <div class="cont-icon-bar icon-bar btn-togler" id="btn-toggle">
+        &#9776;
+      </div>
+      <nav class="nav-bar" id="menu">
+        <span class="cont-cerrar" id="close-btn">&times;</span>
 
-            <span class="cont-cerrar" id="close-btn">&times;</span>
-
-            <ul class="menu-nav-bar">
-                <li class="nav-link"><a href="#inicio">Inicio</a></li>
-                <li class="nav-link"><a href="#servicio">Servicios</a></li>
-                <li class="nav-link"><a href="#capacitacion-id">Cursos</a></li>
-                <li class="nav-link"><a href="#contacto">Contacto</a></li>
-            </ul>
-
-
-        </nav>
+        <ul class="menu-nav-bar">
+          <li class="nav-link"><a href="#inicio">Inicio</a></li>
+          <li class="nav-link"><a href="#nosotros">Nosotros</a></li>
+          <li class="nav-link"><a href="#servicio">Servicios</a></li>
+          <!-- <li class="nav-link"><a href="#">Productos</a></li> -->
+          <li class="nav-link"><a href="#contacto">Contacto</a></li>
+          <li class="btn-cotizar" id="btn-cotizar">
+            <a
+              href="https://api.whatsapp.com/send?phone=+5491133211647&text=Hola,%20quisiera%20la%20cotizacion%20para:"
+              id="cotizar"
+              target="_blank"
+              >Solicitar presupuesto</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
-    <button onclick="clickWp()" id="myBtn"><i class="fa-brands fa-whatsapp wp-fixed"></i></button>
+    <button onclick="clickWp()" id="myBtn">
+      <i class="fa-brands fa-whatsapp wp-fixed"></i>
+    </button>
     <main id="inicio">
-        <div class="cont-slider">
-            <!-- Slideshow container -->
-            <div class="carousel">
-                <div class="slideshow-container">
-                    <div class="mySlides one">
-                        <div class="body-slider">
-                            <h1>Seguridad electrónica inteligente</h1>
-                            <h3>Obtené tu presupuesto ahora</h3>
-                            <a href="https://api.whatsapp.com/send?phone=+5491121937785&text=Hola,%20te%20quisiera%20hacer%20una%20consulta:"
-                                target="_blank">Realizá tu consulta</a>
-                        </div>
-                    </div>
-                    <div class="mySlides two">
-                        <div class="body-slider">
-                            <h2>Las mejores prestaciones</h2>
-                            <h3>La seguridad electrónica pone a nuestro alcance los avances tecnológicos con la
-                                finalidad de maximizar la eficacia de nuestro sistema para garantizar tu seguridad</h3>
-                        </div>
-                    </div>
-                    <div class="mySlides three">
-                        <div class="body-slider">
-                            <h2>Servicios para empresas</h2>
-                            <h3>Soluciones de alta calidad tecnológica</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="direction prev" tabindex="0" onclick="plusSlides(-1)" role="button">❮</div>
-                <div class="direction next" tabindex="0" onclick="plusSlides(1)" role="button">❯</div>
-            </div>
+      <div class="hero">
+        <div class="cont-gral-hero">
+          <div class="cont-texto-inicio">
+            <h1>Protegé lo que más importa con Zona Cero Seguridad</h1>
+            <h2>
+              Soluciones en alarmas y cámaras diseñadas para tu tranquilidad.
+            </h2>
+          </div>
+          <button id="btn-ConoceMas">Conocé más</button>
+        </div>
+      </div>
+      <section id="nosotros">
+   
+        <div class="section-Nosotros">
+          <div class="cont-camara">
+            <picture class="cont-img">
+              <img src="assets/img/colocacion.jpg" alt="" />
+            </picture>
+          </div>
+          <div class="cont-historia">
+            <h3>Sobre nosotros</h3>
+            <p>
+              En Zona Cero Seguridad iniciamos nuestras operaciones en 2020 con un
+              objetivo claro: brindar soluciones confiables y accesibles para
+              proteger lo que más valorás. Desde nuestros comienzos en la zona
+              oeste, hemos trabajado con dedicación y compromiso para convertirnos
+              en una referencia en la instalación de sistemas de seguridad, como
+              cámaras y alarmas, adaptados a cada necesidad. Hoy, contamos con una
+              base de clientes satisfechos, entre los que se destacan negocios
+              locales como el gimnasio FeedBack, la tienda de Tabacos "Vermut", que confían en nosotros para
+              garantizar la tranquilidad de sus espacios. Cada proyecto que
+              emprendemos refuerza nuestra misión: ofrecer tecnología de punta,
+              atención personalizada y resultados que superen las expectativas.
+              Creemos que la seguridad es un pilar fundamental para cualquier
+              hogar o empresa, y estamos aquí para ayudarte a proteger lo que más
+              importa.
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+      <div class="container-card-servicio" id="servicio">
+        <div class="card-servicio">
+          <figure>
+            <img
+              src="assets/img/cctv-icon.png"
+              alt="Logo de camaras en servicio"
+            />
+          </figure>
+          <div class="card-servicio-body">
+            <h3>Implementación de elementos de seguridad</h3>
+            <p>
+              Uso de cámaras inalámbricas, alarmas<br />
+              y domótica para el uso doméstico
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5491121937785&text=Hola,%20te%20quisiera%20hacer%20una%20consulta:"
+              target="_blank"
+              >Consulta</a
+            >
+          </div>
+        </div>
+        <div class="card-servicio">
+          <figure>
+            <img
+              src="assets/img/cctv-icon2.png"
+              alt="Logo de camaras en servicio"
+            />
+          </figure>
+          <div class="card-servicio-body">
+            <h3>Operatividad y atención personalizada</h3>
+            <p>Poseemos los mejores operarios <br />para tu mejor atención</p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5491121937785&text=Hola,%20te%20quisiera%20hacer%20una%20consulta:"
+              target="_blank"
+              >Consulta</a
+            >
+          </div>
         </div>
 
-        <div class="container-card-servicio" id="servicio">
-            <div class="card-servicio">
-                <figure>
-                    <img src="assets/img/cctv-icon.png" alt="Logo de camaras en servicio">
-                </figure>
-                <div class="card-servicio-body">
-                    <h3>Implementación de elementos de seguridad</h3>
-                    <p>Uso de cámaras inalámbricas, alarmas<br> y domótica para el uso doméstico</p>
-                    <a href="https://api.whatsapp.com/send?phone=+5491121937785&text=Hola,%20te%20quisiera%20hacer%20una%20consulta:"
-                        target="_blank">Consulta</a>
-                </div>
-            </div>
-            <div class="card-servicio">
-                <figure>
-                    <img src="assets/img/cctv-icon2.png" alt="Logo de camaras en servicio">
-                </figure>
-                <div class="card-servicio-body">
-                    <h3>Operatividad y atención personalizada</h3>
-                    <p>Poseemos los mejores operarios <br>para tu mejor atención</p>
-                    <a href="https://api.whatsapp.com/send?phone=+5491121937785&text=Hola,%20te%20quisiera%20hacer%20una%20consulta:"
-                        target="_blank">Consulta</a>
-                </div>
-            </div>
-
-            <div class="card-servicio">
-                <figure>
-                    <img src="assets/img/study-icon.png" alt="Icono de estudios y capacitacion de seguridad electrónica">
-                </figure>
-                <div class="card-servicio-body">
-                    <h3>Cursos y capacitaciones presenciales</h3>
-                    <p>Consulta y accede a nuestros mejores cursos online. <br>Hacelo a tu tiempo </p>
-                    <a href="https://api.whatsapp.com/send?phone=+5491121937785&text=Hola,%20te%20quisiera%20hacer%20una%20consulta:"
-                        target="_blank">Consulta</a>
-                </div>
-            </div>
+        <div class="card-servicio">
+          <figure>
+            <img
+              src="assets/img/study-icon.png"
+              alt="Icono de estudios y capacitacion de seguridad electrónica"
+            />
+          </figure>
+          <div class="card-servicio-body">
+            <h3>Cursos y capacitaciones presenciales</h3>
+            <p>
+              Consulta y accede a nuestros mejores cursos online. <br />Hacelo a
+              tu tiempo
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5491121937785&text=Hola,%20te%20quisiera%20hacer%20una%20consulta:"
+              target="_blank"
+              >Consulta</a
+            >
+          </div>
         </div>
+      </div>
     </main>
 
     <section class="servicio-section">
-        <h2 class="servicios_title">Conocé nuestros servicios</h2>
-        <div class="cont-card-prod">
-            <div class="card-prod card-prod1">
-                <div class="body-card-prod">
-                    <h3>Instalación de cámaras</h3>
-                    <h5>Trabajamos con cámaras IP, WIFI, y analógica</h5>
-                </div>
-            </div>
-            <div class="card-prod card-prod2">
-                <div class="body-card-prod">
-                    <h3>Instalación de alarmas</h3>
-                    <h5>Instalamos sistema de alarmas y barreras infrarrojas</h5>
-                </div>
-            </div>
-            <div class="card-prod card-prod3">
-                <div class="body-card-prod">
-                    <h3>Cercos eléctricos</h3>
-                    <h5>Instalación de cerco eléctrico perimetral para proteger cualquier tipo de propiedad</h5>
-                </div>
-            </div>
-            <div class="card-prod card-prod4">
-                <div class="body-card-prod">
-                    <h3>Domótica</h3>
-                    <h5>Implementamos la automatización de diversas instalaciones con un sistema inteligente y de última generación</h5>
-                </div>
-            </div>
+      <h2 class="servicios_title">Conocé nuestros servicios</h2>
+      <div class="cont-card-prod">
+        <div class="card-prod card-prod1">
+          <div class="body-card-prod">
+            <h3>Instalación de cámaras</h3>
+            <h5>Trabajamos con cámaras IP, WIFI, y analógica</h5>
+          </div>
         </div>
-
+        <div class="card-prod card-prod2">
+          <div class="body-card-prod">
+            <h3>Instalación de alarmas</h3>
+            <h5>Instalamos sistema de alarmas y barreras infrarrojas</h5>
+          </div>
+        </div>
+        <div class="card-prod card-prod3">
+          <div class="body-card-prod">
+            <h3>Cercos eléctricos</h3>
+            <h5>
+              Instalación de cerco eléctrico perimetral para proteger cualquier
+              tipo de propiedad
+            </h5>
+          </div>
+        </div>
+        <div class="card-prod card-prod4">
+          <div class="body-card-prod">
+            <h3>Domótica</h3>
+            <h5>
+              Implementamos la automatización de diversas instalaciones con un
+              sistema inteligente y de última generación
+            </h5>
+          </div>
+        </div>
+      </div>
     </section>
-    <section class="capacitacion" id="capacitacion-id">
+    <!-- <section class="capacitacion" id="capacitacion-id">
         <h2>Informate sobre nuestros cursos</h2>
         <div class="cont-cursos">
             <div class="cont-card-cursos">
@@ -220,56 +302,102 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
     <section class="contacto" id="contacto">
-        <h3>Dejanos tu consulta y nos comunicaremos con usted</h3>
-        <div class="cont-contacto">
-            <article class="card-contacto">
-                <h4>Envianos tu consulta</h4>
-                <form action="https://formsubmit.co/f2ad74e6c6b7998fa634e3a9c727e35f" id="form" method="POST" enctype="multipart/form-data">
-                    <fieldset>
-                        <label for="nombre">Nombre y apellido</label>
-                        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre y apellido">
-                    </fieldset>
-                    <fieldset>
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email" placeholder="Ingrese su email" required>
-                    </fieldset>
-                    <label for="comentarios">Consulta</label>
-                    <textarea name="comentario" id="comentarios" cols="30" rows="10"></textarea>
-                    <div class="cont-button-submit">
-                        <button class="submit-form">Enviar</button>
-                    </div>
-                </form>
-            </article>
-            <article class="card-contacto art-telefono">
-                <h4>Seguinos en redes</h4>
-                <div class="cont-contact-rrss">
-                    <a href="https://www.instagram.com/zonacero.si/" target="_blank" class="ico-ig"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.facebook.com/profile.php?id=100087851395413" target="_blank" class="ico-fb"><i class="fa-brands fa-facebook"></i></a>
-                </div>
-                <h4>Contactanos</h4>
-                <div class="cont-contact-tel">
-                    <a href="tel:+5491121937785" target="_blank"><i class="fa-solid fa-phone"></i>1121937785</a>
-                    <a href="mailto:zonacero.seguridad.electronica@gmail.com" class="link-mail" target="_blank"><i class="fa-regular fa-envelope"></i>zonacero.seguridad.electronica@gmail.com</a>
-                    <a href="https://api.whatsapp.com/send?phone=+5491121937785&text=Hola,%20te%20quisiera%20hacer%20una%20consulta:" target="_blank"><i class="fa-brands fa-whatsapp"></i>1121937785</a>
-                </div>
-            </article>
-        </div>
+      <h3>Dejanos tu consulta y nos comunicaremos con usted</h3>
+      <div class="cont-contacto">
+        <article class="card-contacto">
+          <h4>Envianos tu consulta</h4>
+          <form
+            action="https://formsubmit.co/f2ad74e6c6b7998fa634e3a9c727e35f"
+            id="form"
+            method="POST"
+            enctype="multipart/form-data"
+          >
+            <fieldset>
+              <label for="nombre">Nombre y apellido</label>
+              <input
+                type="text"
+                name="nombre"
+                id="nombre"
+                placeholder="Ingrese su nombre y apellido"
+              />
+            </fieldset>
+            <fieldset>
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Ingrese su email"
+                required
+              />
+            </fieldset>
+            <label for="comentarios">Consulta</label>
+            <textarea
+              name="comentario"
+              id="comentarios"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <div class="cont-button-submit">
+              <button class="submit-form">Enviar</button>
+            </div>
+          </form>
+        </article>
+        <article class="card-contacto art-telefono">
+          <h4>Seguinos en redes</h4>
+          <div class="cont-contact-rrss">
+            <a
+              href="https://www.instagram.com/zonacero.si/"
+              target="_blank"
+              class="ico-ig"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100087851395413"
+              target="_blank"
+              class="ico-fb"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </div>
+          <h4>Contactanos</h4>
+          <div class="cont-contact-tel">
+            <a href="tel:+5491121937785" target="_blank"
+              ><i class="fa-solid fa-phone"></i>1121937785</a
+            >
+            <a
+              href="mailto:zonacero.seguridad.electronica@gmail.com"
+              class="link-mail"
+              target="_blank"
+              ><i class="fa-regular fa-envelope"></i
+              >zonacero.seguridad.electronica@gmail.com</a
+            >
+            <a
+              href="https://api.whatsapp.com/send?phone=+5491121937785&text=Hola,%20te%20quisiera%20hacer%20una%20consulta:"
+              target="_blank"
+              ><i class="fa-brands fa-whatsapp"></i>1121937785</a
+            >
+          </div>
+        </article>
+      </div>
     </section>
 
     <footer>
-        <picture class="logo-footer">
-            <img src="assets/img/logo_wepb.png" alt="Logo de Zona cero seguridad">
-        </picture>
-        <div class="copy-footer">
-            <p>Copyright &copy; Zona cero - Todos los derechos reservados</p>
-            <a href="https://github.com/nicojofre5" target="_blank">Nicolas Jofre &reg;</a>
-        </div>
+      <picture class="logo-footer">
+        <img src="assets/img/logo_wepb.png" alt="Logo de Zona cero seguridad" />
+      </picture>
+      <div class="copy-footer">
+        <p>Copyright &copy; Zona cero - Todos los derechos reservados</p>
+        <a href="https://github.com/nicojofre5" target="_blank"
+          >Nicolas Jofre &reg;</a
+        >
+      </div>
     </footer>
-    <script src="https://kit.fontawesome.com/63586a8960.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/63586a8960.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="js/main.js"></script>
-
-
-</body>
+  </body>
 </html>

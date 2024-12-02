@@ -47,13 +47,26 @@ header {
   z-index: 1;
   width: 100%;
   transition: top 1.5s;
-  background-color: var(--tercer-color);
+  background-color: rgb(0, 0, 0);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0px 15px;
 }
-
+#btn-cotizar{
+  background-color: #d2b511;
+  padding: 2px 8px;
+  border-radius: 12px;
+  text-transform: uppercase;
+}
+#btn-cotizar:hover{
+  background-color: #ffd818;
+  transition: 0.6s;
+}
+#btn-cotizar a{
+  color: black;
+  font-weight: bold;
+}
 .cont-logo {
   padding: 0px 2px;
   display: inline-block;
@@ -93,151 +106,63 @@ header {
   font-size: 1.8em;
 }
 
-/* Comienzo de seccion principal  */
+/* Comienzo de seccion principal */
 
-.cont-slider {
+
+.hero{
   min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url(../img/heroinicio.jpg);
+  background-position: left;
 }
+.cont-gral-hero{
+  font-family: var(--primary-font);
+  font-size: 1.4rem;
+  padding: 15px;
 
-.carousel {
-  background-color: #e6e6e6;
-  position: relative;
-  border-bottom: 3px solid var(--secondary-color);
 }
-
-.mySlides {
-  display: none;
-  height: 100vh;
-  /* size for this demo only */
-  width: 100%;
-  /* size for this demo only */
-  padding: 12rem 3.5rem;
-  background-image: linear-gradient(rgba(16, 16, 16, 0.908),
-      rgba(28, 28, 29, 0.817)),
-    url(../img/imgcamarasopt.webp);
-  margin: 0 auto;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.mySlides.two {
-  background-image: linear-gradient(rgba(21, 20, 20, 0.88),
-      rgba(15, 15, 16, 0.819)),
-    url(../img/imagseguridad.wep.webp);
-  background-size: cover;
-  background-position: center;
-  padding: 12rem 3.5rem;
-}
-.mySlides.three {
-  background-image: linear-gradient(rgba(24, 23, 23, 0.808),
-      rgba(18, 18, 19, 0.888)),
-    url(../img/camaras1.webp);
-  background-size: cover;
-  background-position: center;
-  padding: 12rem 3.5rem;
-}
-
-.slideshow-container {
-  position: relative;
-  margin: 0 auto;
-}
-
-.carousel .prev,
-.carousel .next {
-  background-color: rgba(0, 0, 0, 0.13);
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: var(--secondary-color);
+.cont-gral-hero h1{
   font-weight: bold;
-  font-size: 1.55rem;
-  transition: 0.6s ease;
-  border: none;
-  user-select: none;
-  border-radius: 10px;
+  text-shadow:1px 3px 3px rgb(0, 0, 0);
 }
-
-.carousel .prev {
-  left: 8px;
-}
-
-.carousel .next {
-  left: unset;
-  right: 8px;
-}
-
-.carousel .prev:hover,
-.carousel .next:hover {
-  background-color: rgba(0, 0, 0, 0.4);
-  color: #fff;
-}
-
-.carousel .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-.body-slider {
-  padding: 150px 5px;
-  margin: 0px 40px;
-  font-family: var(--secondary-font);
-}
-
-.body-slider a {
-  color: white;
-  font-size: 1.5em;
-  padding: 12px 8px;
-  border-radius: 15px;
-  margin: 12px 0px;
-  display: inline-block;
-  border: 1px solid var(--secondary-color);
- 
-  
-}
-.body-slider a:hover{
-  background-color: #d2b511;
-  color: black;
-  transition: 1s;
-  font-weight: 800;
-}
-
-.body-slider h1,
-.body-slider h2 {
-  font-size: 3.4em;
-  padding: 10px 0px;
-  font-weight: 900;
-  color: #d2b511;
-  text-shadow: 3px 2px 6px rgba(0, 0, 0, 0.68);
-
-}
-
-.body-slider h3 {
-  font-size: 1.8em;
+.cont-gral-hero h2{
   font-weight: 100;
-
 }
-
-.mySlides.one .body-slider,
-.mySlides.mySlides.three .body-slider {
-  text-align: end;
+#btn-ConoceMas{
+  color: black;
+  background-color: #d2b511;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin:15px 0px;
+  cursor: pointer;
+  font-size: 1.7rem;
+  font-weight: 700;
+  font-family: var(--primary-font);
+  border: 1px solid black;
 }
+#btn-ConoceMas:hover{
+  background-color: #fffb00;
+  transition: 0.5s;
+}
+.cont-img img{
+  width: 250px;
+  border-radius: 4px;
+}
+/* Seccion nosotros */
 
+.section-Nosotros{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 30px 20px;
+}
+.cont-historia p{
+  font-size: 1.8rem;
+  font-family: var(--secondary-font);
+  font-weight: 100;
+  padding: 20px;
+}
 /* Parte de servicios  */
 
 .card-servicio>figure img {

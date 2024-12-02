@@ -5,6 +5,7 @@ let menu = document.querySelector('#menu');
 let menu_bar = document.querySelector('#btn-toggle');
 const cerrar = document.querySelector('#close-btn');
 let mybutton = document.getElementById("myBtn");
+const btnConoceMas = document.querySelector('#btn-ConoceMas');
 // Next/previous controls
 function plusSlides(n) {
     showSlides(slideIndex += n);
@@ -71,9 +72,13 @@ function scrollFunction() {
     mybutton.style.display = "none";
   }
 }
+btnConoceMas.addEventListener('click',() => {
+  window.open("https://wa.me/+5491133211647", '_blank');
+})
 function clickWp() {
-  window.open("https://wa.me/+5491121937785", '_blank');
+  window.open("https://wa.me/+5491133211647", '_blank');
 }
+
 document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () =>{
   menu.classList.toggle('btn-togler-event');
 }));
